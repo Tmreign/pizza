@@ -69,7 +69,7 @@ function Contact(first, last,email) {
         newContact.addresses.push(newAddress)
       });
   
-      $("ul#contacts").append("<li><span class='contact'>" + newContact.fullName() + "</span></li>");
+      $("ul#contacts").append("<li><span class='contact'>" + "Thanks we will deliver your pizza in a hour" + "</span></li>");
   
       $(".contact").last().click(function() {
         $("#show-contact").show();
