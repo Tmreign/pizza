@@ -1,8 +1,11 @@
 @import url('bootstrap.css');
 
 body{
-    background-image: url('https://images.pexels.com/photos/724216/pexels-photo-724216.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/1166120/pexels-photo-1166120.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
 
 }
 
@@ -137,4 +140,8 @@ textarea {
 .forgot {
   margin-top:-20px;
   text-align:right;
+}
+
+h1{
+  
 }

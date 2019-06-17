@@ -5,5 +5,8 @@
 body{
     color: aliceblue;
     background-color: black;
+    background-image: url('https://images.pexels.com/photos/1166120/pexels-photo-1166120.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    display: cover;
 
 }
