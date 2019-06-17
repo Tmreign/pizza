@@ -2,11 +2,10 @@
 
 #### _Allows a user to create an order for pizza delivery,
 
-### By _**TOM**_
-
+ 
+#### By **{TOM REIGN}**
 ## Description
-
-_This web application will gather input from the user (name, address, and pizza specifications) to order pizzas. The application can handle multiple pizza orders and calculates total cost._
+This web application will gather input from the user (name, address, and pizza specifications) to order pizzas. The application can handle multiple pizza orders and calculates total cost._
 
 _The goal of this project is to demonstrate understanding of OOP in js, including the use of constructors and the use of object.prototype.method to add methods to an object._
 
@@ -19,20 +18,23 @@ Create a pizza object constructor with properties for toppings and size.
 Create a prototype method for the cost of a pizza depending on the selections chosen. Use your own formula for this.
 
 
-
-## Known Bugs
-
-_There are no known bugs at this time._
-
-## Support and contact details
-
-_Feel free to contact the author of this project through his GitHub account._
+## Setup/Installation Requirements
+* Clone the project from Delani studio
+* Change Directory to pizza in your local machine
+* list the number of file present 
+* Cd to index.html
+* click and open the file
+{ You Need to have set up a git account and created a repositoty for you to clone from my project}
 
 ## Technologies Used
-Bootstrap was used.
+{Html, css, bootstrap ,jquery and javascripts and github}
 
+
+
+
+## Support and contact details
+{Get in touch on SLACK @tom}
 ### License
-
-MIT License.
-
-Copyright (c) 2019 **_Tom**
+MIT license. **All rights reserved**
+Copyright (c) {2019} **{Tom Reign}**
+  

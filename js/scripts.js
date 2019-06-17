@@ -301,7 +301,7 @@ $(document).ready(function() {
     $("#pizza-topping").append("\t" + "\t" + customtopping);
     $("#final-cost").text("\t" + "\t" + newPizzaOrder.totalCost());
   });
-  $("#checkout-btn").click(function() {
-    location.reload();
-  });
+  // $("#checkout-btn").click(function() {
+  //   location.reload();
+  // });
 });
