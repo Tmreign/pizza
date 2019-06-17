@@ -1,0 +1,88 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Order</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/order.css" />
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <div class="container-fluid jumbotron" id="order-content">
+        <div class="col-md-6">
+          <h3 class="page-header">Customize Your Pizza</h3>
+          <form class="form-group" id="customized-pizza">
+            <div id="form-content">
+              <div class="row container">
+                <div class="col-xs-6">
+                  <p>Size</p>
+                </div>
+                <div class="col-xs-6" class="form-option">
+                  <select required class="form-control" id="size">
+                    <option></option>
+                    <option value="Small">Small, 10"</option>
+                    <option value="Medium">Medium, 14"</option>
+                    <option value="Large">Large, 18"</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row container">
+                <div class="col-xs-6">
+                  <p>Crust</p>
+                </div>
+                <div class="col-xs-6" class="form-option">
+                  <select required class="form-control" id="crust">
+                    <option></option>
+                    <option value="Crispy">Crispy</option>
+                    <option value="Stuffed">Stuffed</option>
+                    <option value="Gluten-free">Gluten-free</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row container">
+                <div class="col-xs-6">
+                  <p>Topping :</p>
+                </div>
+                <div class="col-xs-6" class="form-option">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="ckbox ckbox-primary">
+                  <input type="checkbox" value="Bacon" id="topping">
+                  <label for="checkboxPrimary">Bacon</label>
+                </div>
+                <div class="ckbox ckbox-warning">
+                  <input type="checkbox" id="topping1">
+                  <label for="checkboxWarning">Chicken</label>
+                </div>
+                <div class="ckbox ckbox-success">
+                  <input type="checkbox" id="topping2">
+                  <label for="checkboxSuccess">Beef</label>
+                </div>
+                <div class="ckbox ckbox-danger">
+                  <input type="checkbox" id="topping3">
+                  <label for="checkboxDanger">Vegetables</label>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-success">Place Order</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="col-xs-6" id="price-content">
+            <h3 class="page-header">Pizza Cost BreakDown</h3>
+            <div id="order-details">
+              <p id="pizza-size">Pizza Size :</p>
+              <p id="pizza-crust">Pizza Crust :</p>
+              <p id="pizza-topping">Pizza Topping :</p>
+              <h2>Price in Kshs : <span id="final-cost"></span></h2>
+            </div>
+           <a href="file:///home/moringaschool/Documents/pizza/delivery.html"><button type="btn" class="btn btn-primary" id="delivery-btn">Want delivery ?</button></a> 
+            <button type="btn" class="btn btn-danger" id="checkout-btn">Checkout</button>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
