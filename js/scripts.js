@@ -228,11 +228,11 @@ var pizzaTopping = ["Bacon", "Chicken", "Beef", "Vegetables"];
 //-Prototype CostOfPizza created to determine the price based on the three properties i.e size,cheese,topping-//
 Placeorder.prototype.costOfPizza = function() {
   if (this.size === pizzaSize[0]) {
-    this.price += 300;
-  } else if (this.size === pizzaSize[1]) {
-    this.price += 400;
-  } else if (this.size === pizzaSize[2]) {
     this.price += 500;
+  } else if (this.size === pizzaSize[1]) {
+    this.price += 900;
+  } else if (this.size === pizzaSize[2]) {
+    this.price += 1200;
   }
   if (this.crust === pizzaCrust[0]) {
     this.price += 100;
