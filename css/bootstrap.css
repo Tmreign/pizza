@@ -1868,6 +1868,7 @@ pre code {
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin: 3rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -5092,8 +5093,9 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-color: #000;
   border-radius: 0.3rem;
+  color: white;
 }
 
 @media (min-width: 576px) {
